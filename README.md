@@ -21,6 +21,10 @@ Java 8 or later
 Apache Kafka (version 3.0.0 recommended)
 Maven (for building the project)
 
+Setup and Usage:
+
+### 1. Clone the Repository: git clone https://github.com/imadbelkat1/KafkaMessagingDemo.git cd KafkaApp
+
 ### 2. Start Kafka
 Ensure Kafka is running on `localhost:9092`. Follow [Kafka Quickstart Guide](https://kafka.apache.org/quickstart) if needed.
 
