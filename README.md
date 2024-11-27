@@ -1,38 +1,25 @@
-Here’s a `README.md` file tailored for your Kafka application:
+Kafka Application
 
-```markdown
-# Kafka Application
+This project demonstrates a simple Kafka application with a producer and consumer interacting through a Kafka topic. The application includes a Student object model that is sent and received as serialized messages.
 
-This project demonstrates a simple Kafka application with a producer and consumer interacting through a Kafka topic. The application includes a `Student` object model that is sent and received as serialized messages.
+Features:
 
-## Features
+Producer: Publishes a Student object as a serialized string to a Kafka topic.
+Consumer: Listens to the Kafka topic and processes received messages.
+Model: A Student class representing the data structure.
+Project Structure:
 
-- **Producer**: Publishes a `Student` object as a serialized string to a Kafka topic.
-- **Consumer**: Listens to the Kafka topic and processes received messages.
-- **Model**: A `Student` class representing the data structure.
-
-## Project Structure
-
-- **StudentProducer.java**: Sends `Student` objects to the Kafka topic.
-- **StudentConsumer.java**: Receives and processes `Student` objects from the Kafka topic.
-- **Student.java**: Represents the `Student` object with an ID and name.
-- **pom.xml**: Maven configuration file for dependencies and build settings.
-
-## Prerequisites
+StudentProducer.java: Sends Student objects to the Kafka topic.
+StudentConsumer.java: Receives and processes Student objects from the Kafka topic.
+Student.java: Represents the Student object with an ID and name.
+pom.xml: Maven configuration file for dependencies and build settings.
+Prerequisites:
 
 Before running this project, ensure you have the following:
 
-- Java 8 or later
-- Apache Kafka (version 3.0.0 recommended)
-- Maven (for building the project)
-
-## Setup and Usage
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/<your-username>/KafkaApp.git
-cd KafkaApp
-```
+Java 8 or later
+Apache Kafka (version 3.0.0 recommended)
+Maven (for building the project)
 
 ### 2. Start Kafka
 Ensure Kafka is running on `localhost:9092`. Follow [Kafka Quickstart Guide](https://kafka.apache.org/quickstart) if needed.
